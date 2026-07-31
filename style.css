@@ -1077,3 +1077,8 @@ button:focus-visible,
     font-size: 1.8rem;
   }
 }
+@media (max-width: 768px) {
+    .navbar {
+        padding-inline: 40px;
+    }
+}
