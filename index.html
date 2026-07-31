@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doce Encanto Confeitaria.</title>
+  <meta name="description" content="DESCRIÇÃO curta do negócio para mecanismos de busca.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a href="#conteudo-principal" class="sr-only">Pular para o conteúdo principal</a>
+
+  <!-- HEADER / NAVBAR -->
+  <header class="navbar">
+    <div class="container flex-between">
+      <img src="logo-navbar.png" class="navbar-brand">
+
+      <nav class="navbar-links" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#precos">Preços</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contato">Contato</a>
+        <a href="#contato" class="button button-primary">Fale Conosco</a>
+      </nav>
+
+      <button type="button" class="navbar-toggle" aria-label="Abrir menu de navegação" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="conteudo-principal">
+
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div class="container">
+        <div class="hero-content">
+          <span class="eyebrow">BEM-VINDO Doce Encanto Confeitaria</span>
+          <h1>Bolos feitos para adoçar seus momentos</h1>
+          <p class="text-lead">Bolos e doces personalizados, feitos sob encomenda para tornar seus momentos ainda mais especiais.</p>
+          <div class="hero-actions">
+            <a href="#contato" class="button button-primary">Fale Conosco</a>
+            <a href="#servicos" class="button button-secondary">Ver Produtos</a>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <img
+            src="bolo-hero-image.jpg"
+            alt="Imagem ilustrativa de destaque do negócio">
+        </div>
+      </div>
+    </section>
+
+    <!-- BENEFÍCIOS / DIFERENCIAIS -->
+    <section class="section" aria-labelledby="beneficios-titulo">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="eyebrow">NOSSOS DIFERENCIAIS</span>
+          <h2 id="beneficios-titulo">Por que escolher a Doce Encanto</h2>
+          <p class="text-lead">Cada encomenda é feita pensando em você — do sabor à decoração.</p>
+        </div>
+
+        <div class="features">
+          <div class="feature">
+            <span class="feature-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart-icon lucide-heart"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"/></svg></span>
+            <h3 class="text-h4">Feito com carinho</h3>
+            <p>Cada bolo é preparado na hora, com atenção aos detalhes que fazem a diferença no sabor e na apresentação.</p>
+          </div>
+
+          <div class="feature">
+            <span class="feature-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-sliders-horizontal-icon"><path d="M10 5H3"/><path d="M12 19H3"/><path d="M14 3v4"/><path d="M16 17v4"/><path d="M21 12h-9"/><path d="M21 19h-5"/><path d="M21 5h-7"/><path d="M8 10v4"/><path d="M8 12H3"/></svg></span>
+            <h3 class="text-h4">Totalmente personalizável</h3>
+            <p>Você escolhe o tamanho, o recheio e a decoração do seu bolo.</p>
+          </div>
+
+          <div class="feature">
+            <span class="feature-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin-icon lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg></span>
+            <h3 class="text-h4">Entrega na região</h3>
+            <p>Levamos sua encomenda até você. Consulte a taxa pelo WhatsApp.</p>
+          </div>
+
+          <div class="feature">
+            <span class="feature-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-square-heart-icon lucide-message-square-heart"><path d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z"/><path d="M7.5 9.5c0 .687.265 1.383.697 1.844l3.009 3.264a1.14 1.14 0 0 0 .407.314 1 1 0 0 0 .783-.004 1.14 1.14 0 0 0 .398-.31l3.008-3.264A2.77 2.77 0 0 0 16.5 9.5 2.5 2.5 0 0 0 12 8a2.5 2.5 0 0 0-4.5 1.5"/></svg></span>
+            <h3 class="text-h4">Atendimento próximo</h3>
+            <p>Fale direto com a gente pelo WhatsApp, de segunda a sábado, das 9h às 19h.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="section section-alt" id="sobre" aria-labelledby="sobre-titulo">
+      <div class="container about">
+        <div class="about-image">
+          <img
+            src="bolo-sobre.svg"
+            alt="Imagem ilustrativa da equipe ou espaço do negócio">
+        </div>
+
+     <div class="hero-content">
+          <span class="eyebrow">SOBRE A DOCE ENCANTO</span>
+          <h2 id="sobre-titulo">SOBRE NÓS</h2>
+          <p>A Doce Encanto Confeitaria fica no Centro e é feita para quem busca bolos e doces com sabor de carinho. Trabalhamos com bolos personalizados, docinhos para festa, cupcakes e kits especiais, sempre pensando em deixar cada momento mais doce.</p>
+          <p>Atendemos de segunda a sábado, das 9h às 19h, e levamos sua encomenda até você aqui na região.🍰</p>
+          <div class="hero-actions">
+            <a href="#servicos" class="button button-primary">Ver produtos</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="section" id="servicos" aria-labelledby="servicos-titulo">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="eyebrow">O QUE OFERECEMOS</span>
+          <h2 id="servicos-titulo">Nossos Produtos</h2>
+          <p class="text-lead">Do bolo personalizado ao kit completo para a festa — tudo feito sob encomenda.</p>
+        </div>
+
+        <div class="services">
+          <article class="service-card">
+            <span class="service-icon" aria-hidden="true">1</span>
+            <h3 class="card-title">Bolos Personalizados</h3>
+            <p>Escolha o tamanho, o recheio e a decoração. Sabores: chocolate, ninho com morango, prestígio, red velvet e opções personalizadas.</p>
+            <a href="#contato" class="text-small text-accent">Pedir pelo WhatsApp →</a>
+          </article>
+
+          <article class="service-card">
+            <span class="service-icon" aria-hidden="true">2</span>
+            <h3 class="card-title">Bolos de Aniversário</h3>
+            <p>Bolos temáticos e decorados para tornar a data ainda mais especial.</p>
+            <a href="#contato" class="text-small text-accent">Pedir pelo WhatsApp →</a>
+          </article>
+
+          <article class="service-card">
+            <span class="service-icon" aria-hidden="true">3</span>
+            <h3 class="card-title">Brigadeiros e Beijinhos</h3>
+            <p>Docinhos tradicionais, feitos na hora, perfeitos para qualquer festa.</p>
+            <a href="#contato" class="text-small text-accent">Pedir pelo WhatsApp →</a>
+          </article>
+
+          <article class="service-card">
+            <span class="service-icon" aria-hidden="true">4</span>
+            <h3 class="card-title">Docinhos para Festas</h3>
+            <p>Variedade de docinhos para completar a mesa do seu evento.</p>
+            <a href="#contato" class="text-small text-accent">Pedir pelo WhatsApp →</a>
+          </article>
+
+          <article class="service-card">
+            <span class="service-icon" aria-hidden="true">5</span>
+            <h3 class="card-title">Cupcakes</h3>
+            <p>Individuais, deliciosos e decorados com capricho.</p>
+            <a href="#contato" class="text-small text-accent">Pedir pelo WhatsApp →</a>
+          </article>
+
+          <article class="service-card">
+            <span class="service-icon" aria-hidden="true">6</span>
+            <h3 class="card-title">Kits para Aniversário</h3>
+            <p>Kits completos para facilitar a organização da sua festa.</p>
+            <a href="#contato" class="text-small text-accent">Pedir pelo WhatsApp →</a>
+          </article>
+
+          <article class="service-card">
+            <span class="service-icon" aria-hidden="true">7</span>
+            <h3 class="card-title">Kits de Café da Tarde</h3>
+            <p>Uma seleção de doces para receber bem quem você ama.</p>
+            <a href="#contato" class="text-small text-accent">Pedir pelo WhatsApp →</a>
+          </article>
+
+          <article class="service-card">
+            <span class="service-icon" aria-hidden="true">8</span>
+            <h3 class="card-title">Bolos no Pote</h3>
+            <p>Praticidade e sabor em cada potinho.</p>
+            <a href="#contato" class="text-small text-accent">Pedir pelo WhatsApp →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEPOIMENTOS -->
+    <section class="section section-alt" id="depoimentos" aria-labelledby="depoimentos-titulo">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="eyebrow">DEPOIMENTOS</span>
+          <h2 id="depoimentos-titulo">O que dizem nossos clientes</h2>
+          <p class="text-lead">DESCRIÇÃO curta reforçando a satisfação dos clientes atendidos.</p>
+        </div>
+
+        <div class="testimonials">
+          <blockquote class="testimonial">
+            <p class="testimonial-quote">"DEPOIMENTO — relato curto e genérico sobre a experiência com o negócio."</p>
+            <footer class="testimonial-author">
+              <div class="testimonial-avatar">
+                <img
+                  src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Crect%20width='100'%20height='100'%20fill='%23e3e0d9'/%3E%3Ctext%20x='50%25'%20y='50%25'%20font-family='sans-serif'%20font-size='14'%20fill='%235a6472'%20text-anchor='middle'%20dominant-baseline='middle'%3EFOTO%3C/text%3E%3C/svg%3E"
+                  alt="Foto de NOME DO CLIENTE">
+              </div>
+              <div>
+                <p class="text-small"><strong>NOME DO CLIENTE</strong></p>
+                <p class="text-xs text-muted">Cliente</p>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonial">
+            <p class="testimonial-quote">"DEPOIMENTO — relato curto e genérico sobre a experiência com o negócio."</p>
+            <footer class="testimonial-author">
+              <div class="testimonial-avatar">
+                <img
+                  src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Crect%20width='100'%20height='100'%20fill='%23e3e0d9'/%3E%3Ctext%20x='50%25'%20y='50%25'%20font-family='sans-serif'%20font-size='14'%20fill='%235a6472'%20text-anchor='middle'%20dominant-baseline='middle'%3EFOTO%3C/text%3E%3C/svg%3E"
+                  alt="Foto de NOME DO CLIENTE">
+              </div>
+              <div>
+                <p class="text-small"><strong>NOME DO CLIENTE</strong></p>
+                <p class="text-xs text-muted">Cliente</p>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonial">
+            <p class="testimonial-quote">"DEPOIMENTO — relato curto e genérico sobre a experiência com o negócio."</p>
+            <footer class="testimonial-author">
+              <div class="testimonial-avatar">
+                <img
+                  src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Crect%20width='100'%20height='100'%20fill='%23e3e0d9'/%3E%3Ctext%20x='50%25'%20y='50%25'%20font-family='sans-serif'%20font-size='14'%20fill='%235a6472'%20text-anchor='middle'%20dominant-baseline='middle'%3EFOTO%3C/text%3E%3C/svg%3E"
+                  alt="Foto de NOME DO CLIENTE">
+              </div>
+              <div>
+                <p class="text-small"><strong>NOME DO CLIENTE</strong></p>
+                <p class="text-xs text-muted">Cliente</p>
+              </div>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- PREÇOS -->
+    <section class="section" id="precos" aria-labelledby="precos-titulo">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="eyebrow">PLANOS E PREÇOS</span>
+          <h2 id="precos-titulo">Escolha a melhor opção</h2>
+          <p class="text-lead">DESCRIÇÃO curta apresentando os planos ou pacotes disponíveis.</p>
+        </div>
+
+        <div class="pricing">
+          <article class="pricing-card">
+            <h3 class="card-title">PLANO 01</h3>
+            <p class="text-small text-muted">Ideal para quem está começando.</p>
+            <p class="pricing-price">R$ 00,00</p>
+            <ul class="pricing-features">
+              <li>Item incluso 01</li>
+              <li>Item incluso 02</li>
+              <li>Item incluso 03</li>
+            </ul>
+            <a href="#contato" class="button button-secondary button-block">Escolher Plano</a>
+          </article>
+
+          <article class="pricing-card pricing-card--featured">
+            <span class="badge">MAIS POPULAR</span>
+            <h3 class="card-title">PLANO 02</h3>
+            <p class="text-small text-muted">Ideal para quem busca o melhor custo-benefício.</p>
+            <p class="pricing-price">R$ 00,00</p>
+            <ul class="pricing-features">
+              <li>Item incluso 01</li>
+              <li>Item incluso 02</li>
+              <li>Item incluso 03</li>
+              <li>Item incluso 04</li>
+            </ul>
+            <a href="#contato" class="button button-primary button-block">Escolher Plano</a>
+          </article>
+
+          <article class="pricing-card">
+            <h3 class="card-title">PLANO 03</h3>
+            <p class="text-small text-muted">Ideal para quem busca o pacote completo.</p>
+            <p class="pricing-price">R$ 00,00</p>
+            <ul class="pricing-features">
+              <li>Item incluso 01</li>
+              <li>Item incluso 02</li>
+              <li>Item incluso 03</li>
+              <li>Item incluso 04</li>
+              <li>Item incluso 05</li>
+            </ul>
+            <a href="#contato" class="button button-secondary button-block">Escolher Plano</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section-alt" id="faq" aria-labelledby="faq-titulo">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="eyebrow">DÚVIDAS FREQUENTES</span>
+          <h2 id="faq-titulo">Perguntas Frequentes</h2>
+          <p class="text-lead">DESCRIÇÃO curta introduzindo a seção de perguntas e respostas.</p>
+        </div>
+
+        <div class="faq">
+          <details class="faq-item">
+            <summary class="faq-question">
+              PERGUNTA 01 — texto genérico da pergunta
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>RESPOSTA — texto curto e genérico explicando a dúvida do cliente.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              PERGUNTA 02 — texto genérico da pergunta
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>RESPOSTA — texto curto e genérico explicando a dúvida do cliente.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              PERGUNTA 03 — texto genérico da pergunta
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>RESPOSTA — texto curto e genérico explicando a dúvida do cliente.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              PERGUNTA 04 — texto genérico da pergunta
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>RESPOSTA — texto curto e genérico explicando a dúvida do cliente.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="section" id="contato" aria-labelledby="contato-titulo">
+      <div class="container contact">
+        <div class="hero-content">
+          <span class="eyebrow">FALE CONOSCO</span>
+          <h2 id="contato-titulo">Entre em Contato</h2>
+          <p class="text-lead">DESCRIÇÃO curta convidando o visitante a entrar em contato ou solicitar um orçamento.</p>
+
+          <div class="stack">
+            <p><strong>Endereço:</strong> ENDEREÇO DO NEGÓCIO</p>
+            <p><strong>Telefone:</strong> (00) 00000-0000</p>
+            <p><strong>E-mail:</strong> contato@nomedonegocio.com</p>
+            <p><strong>Horário:</strong> Segunda a sábado, das 09h às 18h</p>
+          </div>
+        </div>
+
+        <form class="contact-form" action="#" method="post">
+          <div class="form-group">
+            <label class="form-label" for="nome">Nome</label>
+            <input class="form-input" type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="email">E-mail</label>
+            <input class="form-input" type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="telefone">Telefone</label>
+            <input class="form-input" type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="assunto">Assunto</label>
+            <select class="form-select" id="assunto" name="assunto">
+              <option value="">Selecione uma opção</option>
+              <option value="servico-01">SERVIÇO 01</option>
+              <option value="servico-02">SERVIÇO 02</option>
+              <option value="servico-03">SERVIÇO 03</option>
+              <option value="outro">Outro assunto</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="mensagem">Mensagem</label>
+            <textarea class="form-textarea" id="mensagem" name="mensagem" placeholder="Escreva sua mensagem aqui..." required></textarea>
+            <span class="form-hint">Responderemos o mais breve possível.</span>
+          </div>
+
+          <button type="submit" class="button button-primary button-block">Enviar Mensagem</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="section section-alt" aria-labelledby="cta-titulo">
+      <div class="container text-center">
+        <span class="eyebrow">VAMOS COMEÇAR</span>
+        <h2 id="cta-titulo">CHAMADA PARA AÇÃO</h2>
+        <p class="text-lead">DESCRIÇÃO curta reforçando o convite final para contato, agendamento ou compra.</p>
+        <div class="hero-actions flex-center">
+          <a href="#contato" class="button button-primary">Fale Conosco Agora</a>
+          <a href="#servicos" class="button button-secondary">Ver Serviços</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <p class="footer-heading">NOME DO NEGÓCIO</p>
+          <p class="text-small">DESCRIÇÃO breve sobre o negócio, repetida de forma resumida para reforçar a identidade.</p>
+        </div>
+
+        <nav aria-label="Links rápidos">
+          <p class="footer-heading">Links Rápidos</p>
+          <div class="footer-links">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#precos">Preços</a>
+            <a href="#faq">FAQ</a>
+          </div>
+        </nav>
+
+        <div>
+          <p class="footer-heading">Contato</p>
+          <div class="footer-links">
+            <a href="tel:+5500000000000">(00) 00000-0000</a>
+            <a href="mailto:contato@nomedonegocio.com">contato@nomedonegocio.com</a>
+            <span class="text-small">ENDEREÇO DO NEGÓCIO</span>
+          </div>
+        </div>
+
+        <nav aria-label="Redes sociais">
+          <p class="footer-heading">Redes Sociais</p>
+          <div class="footer-links">
+            <a href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="#" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a href="#" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+          </div>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 NOME DO NEGÓCIO. Todos os direitos reservados.</p>
+        <p>Desenvolvido como template-base reutilizável.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
