@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     faqItems: '.faq-item',
     contactForm: '.contact-form',
     revealTargets:
-      '.feature, .service-card, .testimonial, .pricing-card, .card, ' +
+      '.feature, .service-card, .testimonial, .pricing-card, ' +
       '.faq-item, .about-image, .hero-image',
   };
 
